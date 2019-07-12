@@ -48,6 +48,11 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
+        <!--缓存机制-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

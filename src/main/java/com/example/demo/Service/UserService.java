@@ -9,4 +9,10 @@ import org.springframework.stereotype.Service;
 public interface UserService {
 
     public User selectByPrimaryKey(String username) ;
+
+    User updateByPrimaryKeySelective(User record);
+
+    int deleteByPrimaryKey(String username);
+
+
 }
